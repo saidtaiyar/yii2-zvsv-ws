@@ -1,0 +1,26 @@
+{
+    "name": "zvsv/yii2-zvsv-ws",
+    "description": "yii2 web-socket from zvsv",
+    "keywords": ["yii2", "yii2-zvsv-ws"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/saidtaiyar/yii2-zvsv-ws/issues",
+        "source": "https://github.com/saidtaiyar/yii2-zvsv-ws.git"
+    },
+    "authors": [
+        {
+            "name": "Zorikov Valdimir",
+            "email": "vladimir@zvsv.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"psr/log": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+			"zvsv\\ws\\": "ws/"
+        }
+    }
+}
